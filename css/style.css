@@ -1,0 +1,263 @@
+*
+{
+  font-family: Arial, sans-serif;
+}
+#zone_achats > h1{
+    color:rgba(3, 67, 134, 0.84);
+}
+#seulprod{
+    display: none;
+
+}
+.divideur
+{
+    width:200px;
+    height: 2px;
+    background: rgba(3, 67, 134, 0.84);
+    margin: 0 auto 20px auto;
+}
+.saisie_quantite{
+    color: #000;
+}
+/* HEADER */
+
+header
+{
+    padding: 20px;
+    background-color: rgba(3, 67, 134, 0.84);
+    color: #fff;
+    font-size: 18px;
+}
+
+ul
+{
+    list-style: none;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+/* ACHATS */
+
+.container{
+    padding: 0;
+}
+
+.row{
+	margin-top:20px;
+}
+
+#titre_liste, #titre_commande
+{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: black;
+}
+
+#zone_achats
+{
+    text-align: center;
+}
+#divsearch{
+    margin-left: 80%;
+
+}
+.produits{
+    margin: 10px 0;
+}
+
+.img_products
+{
+    width: 300px;
+    height: 300px;
+}
+
+.button_class
+{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.prix_boutons
+{
+    display: flex;
+    justify-content:center;
+}
+figure > figcaption{
+    font-family: Arial;
+    color: #b4bdff;
+    font-size: 20px;
+
+}
+.btn_ajouter {
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 8px #666666;
+    -moz-box-shadow: 3px 3px 8px #666666;
+    box-shadow: 3px 3px 8px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: rgba(3, 67, 134, 0.84);
+    padding: 5px 10px 5px 10px;
+    border: solid #F6360B 0px;
+    text-decoration: none;
+    display: block;
+}
+
+.btn_retirer {
+    -webkit-border-radius: 25;
+    -moz-border-radius: 25;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 8px #666666;
+    -moz-box-shadow: 3px 3px 8px #666666;
+    box-shadow: 3px 3px 8px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #79f632;
+    padding: 5px 10px 5px 10px ;
+    border: solid #F6360B 0px;
+    text-decoration: none;
+    display: none;
+    
+}
+
+.btn_ajouter:hover, .btn_retirer:hover {
+    background: #F6360B;
+    text-decoration: none;
+}
+
+
+
+/* COMMANDE */
+#qnt_message > button , #zone_commande > a {
+    margin-left: 94%;
+    color: crimson;
+}
+#titre_commande{
+
+   margin-top: 0px;
+}
+#qnt_message >h2{
+    margin: 30px 10px;
+}
+#msgcheck{
+    margin-top: 1%;
+    margin-left: 8%;
+}
+#qnt_message{
+    margin: 50px 100px 40px 100px;
+    width:600px;
+    height:200px;
+    opacity:.70;
+    top:20%;
+    left:20%;
+    display:none;
+    position:fixed;
+    background-color:#313131;
+    color: aliceblue;
+    overflow:auto
+}
+#zone_commande{
+    margin: 50px 100px 40px 100px;
+    width:700px;
+    height:400px;
+    opacity:.70;
+    top:20%;
+    left:20%;
+    display:none;
+    position:fixed;
+    background-color:#313131;
+    overflow:auto
+
+}
+
+a:link{
+    color: #ffffff;
+}
+
+#tableau_commande{
+    margin: 30px 0px;
+
+
+}
+
+th{
+    text-align: center;
+    color: #ffffff;
+}
+
+td{
+    text-align: center;
+    color: #ffffff;
+}
+
+input[type=text]{
+    border: none;
+    border-bottom: 2px solid red;
+    color: #ffffff;
+}
+
+#description{
+	width:150px;
+    color: #ffffff;
+}
+
+#qte_tableau{
+	width:150px;
+    color: #ffffff;
+}
+
+#prix_tableau{
+    color: #ffffff;
+	width:150px;
+}
+
+#prix_total_tableau{
+	width:175px;
+    color: #ffffff;
+}
+
+#total_ht, #tva_total, #somme_total{
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 70%;
+    border-left:thick double #32a1ce;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* LOGO */
+
+#logo{
+    text-align: center;
+    padding: 0px;
+    background-color: rgba(3, 67, 134, 0.84);
+    color: #fff;
+}
+
+#logo p{
+    margin: 10px 0px;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    background-color: rgba(3, 67, 134, 0.84);
+    height: 70%;
+    border-top: 2px solid #000;
+    padding-top:15px;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}

@@ -1,0 +1,16 @@
+fadaei abdulreza année spéciale 2019
+les tâches qui bien fais:
+
+-> javascript
+-> css
+-> icon de page
+-> bootstrap
+-> tableau pour panier
+-> gestion de TVA
+-> icon pour panier
+-> Ajax
+-> changement de taille de panier (article > 3)
+-> jquery
+-> recupere fichier Json
+-> chargement des produits par rapport de fichier Json
+-> methode rechercher pour trouve un produit dans Json
