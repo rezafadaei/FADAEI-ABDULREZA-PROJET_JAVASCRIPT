@@ -1,4 +1,3 @@
-<script type="text/javascript">
 /* VARIABLES GLOBALES */
 let produits;
 var tableau = document.getElementById("tableau_commande");
@@ -268,4 +267,3 @@ $('#search').on('keyup'||'change',function () {
     }
 );
 
-</script>
